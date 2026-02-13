@@ -15,7 +15,7 @@ const Register = () => {
   const navigate = useNavigate();
   const { login, isLoggedIn } = useAuth();
 
-  const API_BASE_URL = "http://localhost:8080/api/students";
+  const API_BASE_URL = "http://13.201.27.191:8080/api/students";
 
   // Redirect if already logged in
   useEffect(() => {

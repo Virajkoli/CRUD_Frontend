@@ -66,7 +66,8 @@ public class StudentService {
             }
 
             // Check if password is already BCrypt encoded
-            if (storedPassword.startsWith("$2a$") || storedPassword.startsWith("$2b$") || storedPassword.startsWith("$2y$")) {
+            if (storedPassword.startsWith("$2a$") || storedPassword.startsWith("$2b$")
+                    || storedPassword.startsWith("$2y$")) {
                 // Password is already BCrypt encoded
                 return passwordEncoder.matches(password, storedPassword);
             } else {

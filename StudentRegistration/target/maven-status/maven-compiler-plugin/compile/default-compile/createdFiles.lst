@@ -1,0 +1,11 @@
+com\practise\test\config\JwtAuthenticationEntryPoint.class
+com\practise\test\entity\Student.class
+com\practise\test\service\StudentService.class
+com\practise\test\repository\StudentRepository.class
+com\practise\test\service\StudentUserDetailsService.class
+com\practise\test\StudentRegistrationApplication.class
+com\practise\test\dto\LoginRequest.class
+com\practise\test\controller\StudentController.class
+com\practise\test\util\JwtUtil.class
+com\practise\test\config\JwtRequestFilter.class
+com\practise\test\config\SecurityConfig.class

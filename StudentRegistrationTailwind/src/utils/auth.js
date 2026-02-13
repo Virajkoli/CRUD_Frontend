@@ -1,6 +1,6 @@
 // API utility functions for handling authentication
 
-export const API_BASE_URL = "http://localhost:8080/api/students";
+export const API_BASE_URL = "http://13.201.27.191:8080/api/students";
 
 // Get token from localStorage
 export const getAuthToken = () => {
