@@ -24,7 +24,7 @@ import com.practise.test.util.JwtUtil;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin("http://localhost:5173/")
+@CrossOrigin("http://3.109.185.55:5173/")
 public class StudentController {
 
     @Autowired

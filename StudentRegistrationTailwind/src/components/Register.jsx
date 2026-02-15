@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import { API_BASE_URL } from "../utils/auth";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -14,8 +15,6 @@ const Register = () => {
   const [registerSuccess, setRegisterSuccess] = useState(false);
   const navigate = useNavigate();
   const { login, isLoggedIn } = useAuth();
-
-  const API_BASE_URL = "http://13.201.27.191:8080/api/students";
 
   // Redirect if already logged in
   useEffect(() => {
